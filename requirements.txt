@@ -1,9 +1,5 @@
 dvc
-pandas 
-mlflow
 notebook
-numpy
-scikit-learn
 matplotlib
 pydantic
 python-box
@@ -15,3 +11,12 @@ types-PyYAML
 fastapi
 dagshub
 jupyterlab
+mlflow==3.9.0
+cloudpickle==3.1.2
+numpy==2.4.2
+pandas==2.3.3
+psutil==7.2.2
+pyarrow==22.0.0
+scikit-learn==1.8.0
+scipy==1.17.0
+

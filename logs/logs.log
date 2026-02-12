@@ -650,3 +650,141 @@ Source-Age: 0
 2026-02-12 19:03:30,131 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
 2026-02-12 19:03:30,133 - custom_logger - INFO - created directory at: metrics
 2026-02-12 19:03:30,933 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2026-02-12 19:11:45,109 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/tsufz/overview_mlops_wine_quality_student "HTTP/1.1 200 OK"
+2026-02-12 19:11:45,115 - dagshub - INFO - Initialized MLflow to track repo "tsufz/overview_mlops_wine_quality_student"
+2026-02-12 19:11:45,117 - dagshub - INFO - Repository tsufz/overview_mlops_wine_quality_student initialized!
+2026-02-12 19:14:55,144 - custom_logger - INFO - Custom logger module initialized.
+2026-02-12 19:15:07,723 - dagshub.auth.tokens - INFO - Removed expired tokens from the token cache
+2026-02-12 19:15:08,328 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2026-02-12 19:15:08,337 - dagshub - INFO - Accessing as tsufz
+2026-02-12 19:15:08,877 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/tsufz/overview_mlops_wine_quality_student "HTTP/1.1 200 OK"
+2026-02-12 19:15:09,340 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2026-02-12 19:15:09,346 - dagshub - INFO - Initialized MLflow to track repo "tsufz/overview_mlops_wine_quality_student"
+2026-02-12 19:15:09,351 - dagshub - INFO - Repository tsufz/overview_mlops_wine_quality_student initialized!
+2026-02-12 19:15:09,377 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:15:09,381 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:15:09,385 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:15:09,387 - custom_logger - INFO - created directory at: data/raw
+2026-02-12 19:15:09,387 - custom_logger - INFO - File already exists.
+2026-02-12 19:15:16,172 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:15:16,174 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:15:16,177 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:15:16,178 - custom_logger - INFO - created directory at: data
+2026-02-12 19:15:18,892 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:15:18,894 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:15:18,897 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:15:18,898 - custom_logger - INFO - created directory at: data/processed
+2026-02-12 19:15:18,961 - custom_logger - INFO - Splitted data into training and test sets
+2026-02-12 19:15:18,962 - custom_logger - INFO - X_train shape: (1279, 11), y_train shape: (1279,)
+2026-02-12 19:15:18,962 - custom_logger - INFO - X_test shape: (320, 11), y_test shape: (320,)
+2026-02-12 19:15:20,760 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:15:20,762 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:15:20,765 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:15:20,766 - custom_logger - INFO - created directory at: models
+2026-02-12 19:15:23,676 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:15:23,677 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:15:23,681 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:15:23,683 - custom_logger - INFO - created directory at: metrics
+2026-02-12 19:15:24,514 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2026-02-12 19:19:05,767 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:19:05,769 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:19:05,773 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:19:05,775 - custom_logger - INFO - created directory at: metrics
+2026-02-12 19:19:06,360 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2026-02-12 19:27:50,480 - custom_logger - INFO - Custom logger module initialized.
+2026-02-12 19:28:07,529 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2026-02-12 19:28:07,539 - dagshub - INFO - Accessing as tsufz
+2026-02-12 19:28:08,058 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/tsufz/overview_mlops_wine_quality_student "HTTP/1.1 200 OK"
+2026-02-12 19:28:08,520 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2026-02-12 19:28:08,524 - dagshub - INFO - Initialized MLflow to track repo "tsufz/overview_mlops_wine_quality_student"
+2026-02-12 19:28:08,526 - dagshub - INFO - Repository tsufz/overview_mlops_wine_quality_student initialized!
+2026-02-12 19:28:35,417 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/tsufz/overview_mlops_wine_quality_student.mlflow "HTTP/1.1 404 Not Found"
+2026-02-12 19:28:35,421 - dagshub - INFO - Repository overview_mlops_wine_quality_student.mlflow doesn't exist, creating it under current user.
+2026-02-12 19:28:36,275 - httpx - INFO - HTTP Request: POST https://dagshub.com/api/v1/user/repos "HTTP/1.1 201 Created"
+2026-02-12 19:28:36,278 - dagshub - INFO - Initialized MLflow to track repo "tsufz/overview_mlops_wine_quality_student.mlflow"
+2026-02-12 19:28:36,280 - dagshub - INFO - Repository tsufz/overview_mlops_wine_quality_student.mlflow initialized!
+2026-02-12 19:28:42,513 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:28:42,515 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:28:42,517 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:28:42,518 - custom_logger - INFO - created directory at: data/raw
+2026-02-12 19:28:42,518 - custom_logger - INFO - File already exists.
+2026-02-12 19:28:45,084 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:28:45,085 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:28:45,088 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:28:45,089 - custom_logger - INFO - created directory at: data
+2026-02-12 19:28:46,971 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:28:46,972 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:28:46,975 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:28:46,975 - custom_logger - INFO - created directory at: data/processed
+2026-02-12 19:28:47,031 - custom_logger - INFO - Splitted data into training and test sets
+2026-02-12 19:28:47,031 - custom_logger - INFO - X_train shape: (1279, 11), y_train shape: (1279,)
+2026-02-12 19:28:47,032 - custom_logger - INFO - X_test shape: (320, 11), y_test shape: (320,)
+2026-02-12 19:28:48,499 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:28:48,501 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:28:48,503 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:28:48,504 - custom_logger - INFO - created directory at: models
+2026-02-12 19:28:49,875 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:28:49,877 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:28:49,880 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:28:49,881 - custom_logger - INFO - created directory at: metrics
+2026-02-12 19:28:50,747 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2026-02-12 19:30:45,352 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/tsufz/overview_mlops_wine_quality_student "HTTP/1.1 200 OK"
+2026-02-12 19:30:45,358 - dagshub - INFO - Initialized MLflow to track repo "tsufz/overview_mlops_wine_quality_student"
+2026-02-12 19:30:45,360 - dagshub - INFO - Repository tsufz/overview_mlops_wine_quality_student initialized!
+2026-02-12 19:30:52,015 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:30:52,016 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:30:52,018 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:30:52,019 - custom_logger - INFO - created directory at: data/raw
+2026-02-12 19:30:52,019 - custom_logger - INFO - File already exists.
+2026-02-12 19:30:55,796 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:30:55,797 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:30:55,799 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:30:55,800 - custom_logger - INFO - created directory at: data
+2026-02-12 19:30:57,996 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:30:57,997 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:30:57,999 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:30:58,000 - custom_logger - INFO - created directory at: data/processed
+2026-02-12 19:30:58,042 - custom_logger - INFO - Splitted data into training and test sets
+2026-02-12 19:30:58,042 - custom_logger - INFO - X_train shape: (1279, 11), y_train shape: (1279,)
+2026-02-12 19:30:58,042 - custom_logger - INFO - X_test shape: (320, 11), y_test shape: (320,)
+2026-02-12 19:30:59,678 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:30:59,679 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:30:59,682 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:30:59,683 - custom_logger - INFO - created directory at: models
+2026-02-12 19:31:03,074 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:31:03,076 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:31:03,078 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:31:03,078 - custom_logger - INFO - created directory at: metrics
+2026-02-12 19:31:03,635 - custom_logger - INFO - json file saved at: metrics/metrics.json
+2026-02-12 19:36:09,530 - custom_logger - INFO - Custom logger module initialized.
+2026-02-12 19:36:13,207 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2026-02-12 19:36:13,215 - dagshub - INFO - Accessing as tsufz
+2026-02-12 19:36:13,825 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/tsufz/overview_mlops_wine_quality_student "HTTP/1.1 200 OK"
+2026-02-12 19:36:14,342 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2026-02-12 19:36:14,346 - dagshub - INFO - Initialized MLflow to track repo "tsufz/overview_mlops_wine_quality_student"
+2026-02-12 19:36:14,348 - dagshub - INFO - Repository tsufz/overview_mlops_wine_quality_student initialized!
+2026-02-12 19:36:14,359 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:36:14,360 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:36:14,362 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:36:14,363 - custom_logger - INFO - created directory at: data/raw
+2026-02-12 19:36:14,363 - custom_logger - INFO - File already exists.
+2026-02-12 19:36:14,390 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:36:14,391 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:36:14,393 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:36:14,394 - custom_logger - INFO - created directory at: data
+2026-02-12 19:36:14,419 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:36:14,421 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:36:14,423 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:36:14,424 - custom_logger - INFO - created directory at: data/processed
+2026-02-12 19:36:14,470 - custom_logger - INFO - Splitted data into training and test sets
+2026-02-12 19:36:14,471 - custom_logger - INFO - X_train shape: (1279, 11), y_train shape: (1279,)
+2026-02-12 19:36:14,471 - custom_logger - INFO - X_test shape: (320, 11), y_test shape: (320,)
+2026-02-12 19:36:14,482 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:36:14,484 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:36:14,487 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:36:14,487 - custom_logger - INFO - created directory at: models
+2026-02-12 19:36:14,512 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2026-02-12 19:36:14,514 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2026-02-12 19:36:14,517 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2026-02-12 19:36:14,518 - custom_logger - INFO - created directory at: metrics
+2026-02-12 19:36:15,266 - custom_logger - INFO - json file saved at: metrics/metrics.json

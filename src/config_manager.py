@@ -91,7 +91,7 @@ class ConfigurationManager:
                 model_path=config.model_path,
                 metric_file_name=config.metric_file_name,
                 all_params=params,
-                mlflow_uri="https://dagshub.com/licence.pedago/overview_mlops_wine_quality.mlflow",
+                mlflow_uri="https://dagshub.com/tsufz/overview_mlops_wine_quality_student.mlflow",
           )
 
           return model_evaluation_config
